@@ -1,0 +1,49 @@
+.image img {
+    height: 735px;
+}
+.form-maid a:hover {
+  color: red;
+}
+.form-control{
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3pc;
+    border-radius: 0px;
+    border-bottom: 5px solid #a9a9a980
+}
+button.btn.mb-4 {
+    margin-left: 15pc;
+    background: #d2d4e791;
+    border: hidden;
+    width: 150px;
+    height: 60px;
+    border-radius: 25px;
+    color: #0d0e0e;
+    font-weight: 700;
+}
+button.btn.mb-4:hover {
+  background: #79a6d2;
+  color: white;
+}
+a.homepage{
+  text-decoration: auto;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 700; 
+  color: #0d0e0e;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .image img {
+    height: 735px;
+    width: 390px;
+    object-fit: fill;
+}
+button.btn.mb-4 {
+    margin-left: 8pc
+    }
